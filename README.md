@@ -1,10 +1,14 @@
 # Vagrant Basic
 
-- `config.vm.box` - Operationg System
-- `config.vm.provider` - virtualbox setting
-- `config.vm.network` - How your host sees your box
-- `config.vm.synced_folder` - access file from your computer
-- `config.vm.provider` - what we want setup
+```
+config.vm.box - Operationg System
+config.vm.provider - virtualbox setting
+config.vm.network - How your host sees your box
+config.vm.synced_folder - access file from your computer
+config.vm.provider - script for setup
+```
+
+- [`https://www.vagrantup.com/docs/index.html`](https://www.vagrantup.com/docs/index.html)
 
 ## Vagrant Commands
 
@@ -38,3 +42,5 @@ validate        | validates the Vagrantfile
 version         | prints current and latest Vagrant version
 winrm           | executes commands on a machine via WinRM
 winrm-config    | outputs WinRM configuration to connect to the machine
+
+- [`https://www.vagrantup.com/docs/cli/`](https://www.vagrantup.com/docs/cli/)
